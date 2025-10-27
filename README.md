@@ -173,14 +173,8 @@ For inquiries regarding this research or collaboration opportunities, please rea
 
 I would like to express my sincere gratitude to:
 - **Dr. Ebelechukwu Nwafor** - Research advisor, for invaluable guidance and support throughout this project
-- **Professor Daniel Joyce** - Head of the Department of Computing Sciences
-- **Villanova University Department of Computing Sciences** - For providing the opportunity to pursue this independent study
-
 ---
 
-## 📖 Citation
-
-*Citation information will be added upon publication*
 
 ---
 
