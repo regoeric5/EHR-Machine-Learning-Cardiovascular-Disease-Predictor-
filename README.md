@@ -205,21 +205,6 @@ All six models demonstrated strong predictive performance on the held-out test s
 
 
 
-## ⚠️ Limitations
-
-1. **Data Quality Dependencies**
-   - Model performance is affected by errors in electronic health records
-   - Inherits biases present in the source EHR system
-
-2. **Feature Availability**
-   - Many potentially informative features were excluded due to high null value percentages
-   - Limited by data completeness in the MIMIC-IV dataset
-
-3. **Temporal Information**
-   - Current implementation does not utilize time series data
-   - Missing temporal patterns that could enhance predictions
-
-
 
 ---
 
@@ -254,11 +239,7 @@ All six models demonstrated strong predictive performance on the held-out test s
 - **NumPy** - Numerical computing
 - **Grid Search CV** - Hyperparameter optimization
 
-## 📄 Publication Status
 
-**Current Status**: Under Publication
-
-The full implementation, detailed methodology, and comprehensive results are currently being prepared for academic publication. The code repository will be made public following the publication process.
 
 
 ## 🙏 Acknowledgments
