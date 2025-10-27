@@ -7,8 +7,6 @@
 
 Cardiovascular Disease (CVD) affects over 116 million Americans, with a death occurring every 33 seconds. Early detection is critical to reducing CVD mortality rates. This project implements a machine learning system that predicts cardiovascular disease using only routine clinical data from Electronic Health Records (EHR), making it accessible for widespread clinical adoption.
 
-## 🏥 Problem Statement
-
 Traditional cardiovascular disease prediction often relies on:
 - Advanced biomarkers
 - Medical imaging
@@ -28,6 +26,8 @@ Each observation included in the study required:
 - At least one laboratory test result
 - At least one valid heart rate reading
 - At least one prescription record
+
+- 
 
 ### Features (49 Total)
 - **Laboratory values** - Routine blood work and clinical tests
