@@ -27,7 +27,7 @@ Each observation included in the study required:
 - At least one valid heart rate reading
 - At least one prescription record
 
-- 
+
 
 ### Features (49 Total)
 - **Laboratory values** - Routine blood work and clinical tests
