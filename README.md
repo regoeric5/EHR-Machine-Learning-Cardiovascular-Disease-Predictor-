@@ -1,12 +1,6 @@
 # EHR-Machine-Learning-Cardiovascular-Disease-Predictor-
-
-# EHR Machine Learning: Cardiovascular Disease Predictor
-
-[![Status](https://img.shields.io/badge/Status-Under%20Publication-yellow)]()
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)]()
-[![License](https://img.shields.io/badge/License-Confidential-red)]()
-
 > **Note**: This project was completed as part of independent research at Villanova University (CSC 5993). The full implementation code is currently under publication and will be made available following the publication process.
+> **Advisor**: Dr. Ebelechukwu Nwafor  
 
 ## 🎯 Project Overview
 
@@ -17,10 +11,9 @@ Cardiovascular Disease (CVD) affects over 116 million Americans, with a death oc
 Traditional cardiovascular disease prediction often relies on:
 - Advanced biomarkers
 - Medical imaging
-- Cholesterol readings
 - Specialized equipment
 
-This creates barriers to early detection in many healthcare settings. Our approach uses **only tabular electronic health data** from routine clinical observations, making CVD prediction more accessible and practical for real-world deployment.
+Our approach uses only tabular electronic health data from routine clinical observations, making CVD prediction more accessible and practical for real-world deployment. Importantly, all models were trained on a standard laptop without requiring specialized computing resources, GPU acceleration, or cloud infrastructure.
 
 ## 📊 Dataset
 
@@ -41,19 +34,22 @@ Each observation included in the study required:
 - **Demographic information** - Age, gender, ethnicity
 - **Comorbidity flags** - Pre-existing conditions and risk factors
 
-## 🎯 Classification Task
+"Random Forest Feature Importance Analysis"
+- 
+
+ Classification Task
 
 The model predicts the presence of four types of cardiovascular disease:
-1. **Heart Attack** (Myocardial Infarction)
-2. **Ischemic Stroke**
-3. **Heart Failure**
-4. **Coronary Artery Disease (CAD)**
+1. **Heart Attack (Myocardial Infarction)
+2. Ischemic Stroke
+3. Heart Failure
+4. Coronary Artery Disease (CAD)
 
 **Output Classification**:
 - `1` - Patient has one or more of the CVD conditions
 - `0` - Patient has none of the CVD conditions
 
-## 🔧 Methodology
+## Methodology
 
 ### Data Preprocessing Pipeline
 
@@ -90,7 +86,7 @@ Six different models were implemented and evaluated:
 
 ### Hyperparameter Optimization
 
-**Approach**: Grid Search Cross-Validation
+- Grid Search Cross-Validation
 - Systematically explored hyperparameter space
 - Optimization metrics: ROC AUC and F1-Score
 - Applied to all models for fair comparison
@@ -126,15 +122,7 @@ The models demonstrated strong predictive performance on routine clinical data:
    - Incorporate temporal patterns from patient history
    - Implement recurrent neural networks (RNN/LSTM)
 
-2. **Deep Learning Enhancement**
-   - Integrate deep learning models into ensemble architecture
-   - Explore neural network-based meta-learners
-
-3. **Feature Engineering**
-   - Develop domain-specific engineered features
-   - Explore feature interaction terms
-
-4. **External Validation**
+2. **External Validation**
    - Test on additional hospital datasets
    - Assess generalizability across different populations
 
@@ -147,11 +135,6 @@ The models demonstrated strong predictive performance on routine clinical data:
 - **NumPy** - Numerical computing
 - **Grid Search CV** - Hyperparameter optimization
 
-## 📚 Research Context
-
-This project was completed as part of CSC 5993 Independent Research at Villanova University's Department of Computing Sciences.
-
-**Advisor**: Dr. Ebelechukwu Nwafor  
 **Department Head**: Professor Daniel Joyce
 
 ## 📄 Publication Status
@@ -160,23 +143,15 @@ This project was completed as part of CSC 5993 Independent Research at Villanova
 
 The full implementation, detailed methodology, and comprehensive results are currently being prepared for academic publication. The code repository will be made public following the publication process.
 
-## 📧 Contact
-
-**Eric Rego**  
-Villanova University - Department of Computing Sciences
-
-For inquiries regarding this research or collaboration opportunities, please reach out through GitHub or institutional channels.
-
----
 
 ## 🙏 Acknowledgments
 
 I would like to express my sincere gratitude to:
-- **Dr. Ebelechukwu Nwafor** - Research advisor, for invaluable guidance and support throughout this project
+- **Dr. Ebelechukwu Nwafor** - Research advisor, for the invaluable guidance and support throughout this project
 ---
 
 
 ---
 
 **Last Updated**: October 2025  
-**Status**: Code Under Publication | README Available
+  README Available
