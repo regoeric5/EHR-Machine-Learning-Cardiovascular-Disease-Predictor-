@@ -35,7 +35,7 @@ Each observation included in the study required:
 - **Demographic information** - Age, gender, ethnicity
 - **Comorbidity flags** - Pre-existing conditions and risk factors
 
- Classification Task
+### Classification Task
 
 The model predicts the presence of four types of cardiovascular disease:
 1. **Heart Attack (Myocardial Infarction)
