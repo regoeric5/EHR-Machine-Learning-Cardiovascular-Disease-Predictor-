@@ -219,75 +219,12 @@ All six models demonstrated strong predictive performance on the held-out test s
    - Current implementation does not utilize time series data
    - Missing temporal patterns that could enhance predictions
 
-## 🚀 Future Work
 
-1. **Time Series Integration**
-   - Incorporate temporal patterns from patient history
-   - Implement recurrent neural networks (RNN/LSTM)
-
-2. **Deep Learning Enhancement**
-   - Integrate deep learning models into ensemble architecture
-   - Explore neural network-based meta-learners
-
-3. **Feature Engineering**
-   - Develop domain-specific engineered features
-   - Explore feature interaction terms
-
-4. **External Validation**
-   - Test on additional hospital datasets
-   - Assess generalizability across different populations
-
-## 🛠️ Technology Stack
-
-- **Python 3.8+**
-- **scikit-learn** - Machine learning models and preprocessing
-- **XGBoost** - Gradient boosting implementation
-- **pandas** - Data manipulation and analysis
-- **NumPy** - Numerical computing
-- **Grid Search CV** - Hyperparameter optimization
-
-## 📚 Research Context
-
-This project was completed as part of CSC 5993 Independent Research at Villanova University's Department of Computing Sciences.
-
-**Advisor**: Dr. Ebelechukwu Nwafor  
-**Department Head**: Professor Daniel Joyce
-
-## 📄 Publication Status
-
-**Current Status**: Under Publication
-
-The full implementation, detailed methodology, and comprehensive results are currently being prepared for academic publication. The code repository will be made public following the publication process.
-
-## 📧 Contact
-
-**Eric Rego**  
-Villanova University - Department of Computing Sciences
-
-For inquiries regarding this research or collaboration opportunities, please reach out through GitHub or institutional channels.
 
 ---
 
-## 🙏 Acknowledgments
 
-I would like to express my sincere gratitude to:
-- **Dr. Ebelechukwu Nwafor** - Research advisor, for invaluable guidance and support throughout this project
-- **Professor Daniel Joyce** - Head of the Department of Computing Sciences
-- **Villanova University Department of Computing Sciences** - For providing the opportunity to pursue this independent study
-
----
-
-## 📖 Citation
-
-*Citation information will be added upon publication*
-
----
-
-**Last Updated**: October 2025  
-**Status**: Code Under Publication | README Available
-*Detailed performance metrics and comparative analysis will be published in the forthcoming research paper.*
-
-## ⚠️ Limitations
+## Limitations
 
 1. **Data Quality Dependencies**
    - Model performance is affected by errors in electronic health records
@@ -297,11 +234,8 @@ I would like to express my sincere gratitude to:
    - Many potentially informative features were excluded due to high null value percentages
    - Limited by data completeness in the MIMIC-IV dataset
 
-3. **Temporal Information**
-   - Current implementation does not utilize time series data
-   - Missing temporal patterns that could enhance predictions
 
-## 🚀 Future Work
+##  Future Work
 
 1. **Time Series Integration**
    - Incorporate temporal patterns from patient history
@@ -311,7 +245,7 @@ I would like to express my sincere gratitude to:
    - Test on additional hospital datasets
    - Assess generalizability across different populations
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Python 3.8+**
 - **scikit-learn** - Machine learning models and preprocessing
@@ -319,8 +253,6 @@ I would like to express my sincere gratitude to:
 - **pandas** - Data manipulation and analysis
 - **NumPy** - Numerical computing
 - **Grid Search CV** - Hyperparameter optimization
-
-**Department Head**: Professor Daniel Joyce
 
 ## 📄 Publication Status
 
@@ -332,11 +264,9 @@ The full implementation, detailed methodology, and comprehensive results are cur
 ## 🙏 Acknowledgments
 
 I would like to express my sincere gratitude to:
-- **Dr. Ebelechukwu Nwafor** - Research advisor, for the invaluable guidance and support throughout this project
+- **Dr. Ebelechukwu Nwafor** - for the invaluable guidance and support throughout this project
 ---
 
 
 ---
 
-**Last Updated**: October 2025  
-  README Available
