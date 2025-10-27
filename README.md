@@ -1,5 +1,5 @@
 # EHR-Machine-Learning-Cardiovascular-Disease-Predictor-
-> **Note**: This project was completed as part of independent research at Villanova University (CSC 5993). The full implementation code is currently under publication and will be made available following the publication process.
+> **Note**:  The full implementation code is currently under publication and will be made available following the publication process.
 > 
 > **Advisor**: Dr. Ebelechukwu Nwafor  
 
