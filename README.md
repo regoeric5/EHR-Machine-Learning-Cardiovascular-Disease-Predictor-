@@ -38,7 +38,7 @@ Each observation included in the study required:
 ### Classification Task
 
 The model predicts the presence of four types of cardiovascular disease:
-1. **Heart Attack (Myocardial Infarction)
+1. Heart Attack (Myocardial Infarction)
 2. Ischemic Stroke
 3. Heart Failure
 4. Coronary Artery Disease (CAD)
